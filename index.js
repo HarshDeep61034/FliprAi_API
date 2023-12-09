@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello, this is the Node.js and Express version of your Flask app!");
+  res.send("Hello, this is backend for FliprAi Project: Post on /api to get response from chatGPT.");
 });
 
 app.post("/api", async (req, res) => {
